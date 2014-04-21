@@ -1,0 +1,22 @@
+{
+  "name": "nip",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "blessed": "^0.0.29",
+    "lazy.js": "^0.3.2",
+    "xtend": "^3.0.0",
+    "rc": "^0.3.5",
+    "optimist": "^0.6.1"
+  }
+}
