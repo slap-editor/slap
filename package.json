@@ -13,7 +13,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "blessed": "^0.0.29",
+    "blessed": "beardtree/blessed",
     "lazy.js": "^0.3.2",
     "xtend": "^3.0.0",
     "rc": "^0.3.5",
