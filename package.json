@@ -7,7 +7,7 @@
     "slap": "./index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,10 @@
     "copy-paste": "beardtree/node-copy-paste",
     "undo.js": "beardtree/undo",
     "highlight.js": "^8.0.0",
-    "cheerio": "^0.15.0"
+    "cheerio": "^0.15.0",
+    "lex": "^1.7.5"
+  },
+  "devDependencies": {
+    "tape": "^2.12.3"
   }
 }
