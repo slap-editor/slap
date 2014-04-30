@@ -23,30 +23,4 @@ test("Editor", function (t) {
       sst.equal(lines.join(''), text);
     });
   });
-  t.test("._markupIndex", function (st) {
-    st.test("should treat {open} and {close} as single characters", function (sst) {
-      sst.plan(3);
-
-      var markup = "Curlies{open}!{close}";
-      sst.equal(markup.slice(Editor._markupIndex(markup, 7)), "{open}!{close}");
-      sst.equal(markup.slice(Editor._markupIndex(markup, 8)), "!{close}");
-      sst.equal(markup.slice(Editor._markupIndex(markup, 9)), "{close}");
-    });
-    st.test("should get indices correctly", function (sst) {
-      sst.plan(4);
-
-      var markup = "{inverse}Markup {green-fg}{/green-fg}{/inverse}{bold}.{/bold}";
-      sst.equal(Editor._markupIndex(markup, 0), 0);
-      sst.equal(Editor._markupIndex(markup, 1), 10);
-      sst.equal(markup.slice(Editor._markupIndex(markup, 7)), "{bold}.{/bold}");
-      sst.equal(Editor._markupIndex(markup, Infinity), markup.length);
-    });
-  });
-  t.test("._escapeCurlies", function (st) {
-    st.test("should escape curlies", function (sst) {
-      sst.plan(1);
-
-      sst.equal(Editor._escapeCurlies("open: {, close: }"), "open: {open}, close: {close}");
-    });
-  });
 });
