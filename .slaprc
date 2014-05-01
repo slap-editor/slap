@@ -1,4 +1,5 @@
 {
+  "messageDuration": 1000,
   "editor": {
     "useSpaces": false,
     "tabSize": 4,
