@@ -1,0 +1,28 @@
+{
+  "editor": {
+    "useSpaces": false,
+    "tabSize": 4,
+    "pageLines": 10,
+    "doubleClickDuration": 600,
+    "style": {
+      "selection": "{cyan-bg}",
+      "currentLine": "{blue-bg}",
+
+      "keyword": "{red-fg}",
+      "built_in": "{yellow-fg}",
+
+      "title": "{underline}",
+      "params": "{bold}",
+
+      "number": "{green-fg}{bold}",
+      "string": "{green-fg}{bold}",
+      "regexp": "{green-fg}{bold}",
+      "literal": "{green-fg}{bold}",
+
+      "comment": "{light-white-fg}"
+    }
+  },
+  "header": {
+    "style": "{white-bg}{black-fg}"
+  }
+}
