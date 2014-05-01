@@ -23,8 +23,7 @@
     "optimist": "^0.6.1",
     "copy-paste": "beardtree/node-copy-paste",
     "undo.js": "beardtree/undo",
-    "highlight.js": "^8.0.0",
-    "cheerio": "^0.15.0",
+    "highlight.js": "beardtree/highlight.js#slap",
     "lex": "^1.7.5",
     "event-stream": "^3.1.5"
   },
