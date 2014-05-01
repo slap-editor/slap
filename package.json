@@ -2,6 +2,7 @@
   "name": "slap",
   "version": "0.0.0",
   "description": "",
+  "preferGlobal": true,
   "main": "index.js",
   "bin": {
     "slap": "./index.js"
