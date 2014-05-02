@@ -5,9 +5,9 @@ var test = require('tape');
 var Editor = require('../lib/editor');
 
 test("Editor", function (t) {
-  t.test("._splitLines", function (st) {
+  t.test(".splitLines", function (st) {
     var text = "This is a line.\rThis is another line.\r\nHere's a third line.\n";
-    var lines = Editor._splitLines(text);
+    var lines = Editor.splitLines(text);
 
     st.test("should split on varying line endings correctly", function (sst) {
       sst.plan(4);
