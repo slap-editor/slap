@@ -1,6 +1,5 @@
 {
   "messageDuration": 1000,
-  "style": "{magenta-bg}",
   "editor": {
     "useSpaces": false,
     "tabSize": 4,
@@ -91,6 +90,12 @@
       "redo": "C-y",
       "toggleInsertMode": "insert"
     }
+  },
+  "style": {
+    "main": "{magenta-bg}",
+    "header": "",
+    "changed": "{yellow-fg}{bold}",
+    "prompt": ""
   },
   "bindings": {
     "quit": ["escape", "C-q"],
