@@ -24,6 +24,60 @@
       "literal": "{green-fg}{bold}",
 
       "comment": "{white-bg}{black-fg}"
+    },
+    "bindings": {
+      "goLeft": "left",
+      "goLeftWord": "C-left",
+      "goLeftInfinity": "home",
+      "goRight": "right",
+      "goRightWord": "C-right",
+      "goRightInfinity": "end",
+      "goUp": "up",
+      "goUpParagraph": "C-up",
+      "goUpPage": "pageup",
+      "goUpInfinity": "C-home",
+      "goDown": "down",
+      "goDownParagraph": "C-down",
+      "goDownPage": "pagedown",
+      "goDownInfinity": "C-end",
+      "goMatchingBracket": "C-m",
+
+      "selectAll": "C-a",
+      "selectLeft": "S-left",
+      "selectLeftWord": "C-S-left",
+      "selectLeftInfinity": "S-home",
+      "selectRight": "S-right",
+      "selectRightWord": "C-S-right",
+      "selectRightInfinity": "S-end",
+      "selectUp": "S-up",
+      "selectUpParagraph": "C-S-up",
+      "selectUpPage": "S-pageup",
+      "selectUpInfinity": "C-S-home",
+      "selectDown": "S-down",
+      "selectDownParagraph": "C-S-down",
+      "selectDownPage": "S-pagedown",
+      "selectDownInfinity": "C-S-end",
+      "selectMatchingBracket": "C-S-m",
+
+      "deleteLeft": "backspace",
+      "deleteRight": "delete",
+      "deleteLeftWord": "C-backspace",
+      "deleteRightWord": "C-delete",
+      "deleteLeftInfinity": "C-S-backspace",
+      "deleteRightInfinity": "C-S-delete",
+
+      "copy": "C-c",
+      "cut": "C-x",
+      "paste": "C-v",
+      "indent": ["tab", "C-tab"],
+      "dedent": "S-tab",
+      "undo": "C-z",
+      "redo": "C-y",
+      "toggleInsertMode": "insert"
     }
+  },
+  "bindings": {
+    "quit": ["escape", "C-q"],
+    "find": "C-f"
   }
 }
