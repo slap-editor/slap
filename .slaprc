@@ -14,16 +14,32 @@
 
       "keyword": "{red-fg}",
       "built_in": "{yellow-fg}",
+      "preprocessor": "{red-fg}",
 
       "title": "{underline}",
       "params": "{bold}",
+
+      "class": "",
+      "function": "",
+      "decorator": "{magenta-fg}",
+
+      "shebang": "{yellow-bg}{black-fg}",
+      "variable": "{yellow-fg}",
+      "operator": "{green-fg}",
+      "subst": "",
 
       "number": "{green-fg}{bold}",
       "string": "{green-fg}{bold}",
       "regexp": "{green-fg}{bold}",
       "literal": "{green-fg}{bold}",
 
-      "comment": "{white-bg}{black-fg}"
+      "comment": "{white-bg}{black-fg}",
+
+      "header": "{bold}",
+      "strong": "{bold}",
+      "code": "{green-fg}",
+      "link_label": "",
+      "link_url": "{yellow-fg}"
     },
     "bindings": {
       "goLeft": "left",
