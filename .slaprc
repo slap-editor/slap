@@ -22,7 +22,7 @@
       "regexp": "{green-fg}{bold}",
       "literal": "{green-fg}{bold}",
 
-      "comment": "{light-white-fg}"
+      "comment": "{white-bg}{black-fg}"
     }
   },
   "header": {
