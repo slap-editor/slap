@@ -2,12 +2,12 @@
 /*global require, global*/
 
 var test = require('tape');
-var Editor = require('../lib/editor');
+var textUtil = require('../lib/text');
 
-test("Editor", function (t) {
+test("textUtil", function (t) {
   t.test(".splitLines", function (st) {
     var text = "This is a line.\rThis is another line.\r\nHere's a third line.\n";
-    var lines = Editor.splitLines(text);
+    var lines = textUtil.splitLines(text);
 
     st.test("should split on varying line endings correctly", function (sst) {
       sst.plan(4);
