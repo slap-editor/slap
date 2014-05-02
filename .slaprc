@@ -1,5 +1,6 @@
 {
   "messageDuration": 1000,
+  "style": "{magenta-bg}",
   "editor": {
     "useSpaces": false,
     "tabSize": 4,
@@ -24,8 +25,5 @@
 
       "comment": "{white-bg}{black-fg}"
     }
-  },
-  "header": {
-    "style": "{white-bg}{black-fg}"
   }
 }
