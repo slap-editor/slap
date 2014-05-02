@@ -27,10 +27,10 @@
     },
     "bindings": {
       "goLeft": "left",
-      "goLeftWord": "C-left",
+      "goLeftWord": ["C-left", "M-b"],
       "goLeftInfinity": "home",
       "goRight": "right",
-      "goRightWord": "C-right",
+      "goRightWord": ["C-right", "M-f"],
       "goRightInfinity": "end",
       "goUp": "up",
       "goUpParagraph": "C-up",
