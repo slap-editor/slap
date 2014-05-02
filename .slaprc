@@ -8,6 +8,8 @@
     "style": {
       "selection": "{cyan-bg}",
       "currentLine": "{blue-bg}",
+      "matchingBracket": "{green-bg}{bold}",
+      "mismatchedBracket": "{red-bg}{bold}",
 
       "keyword": "{red-fg}",
       "built_in": "{yellow-fg}",
