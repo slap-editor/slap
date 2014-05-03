@@ -102,6 +102,7 @@
   },
   "bindings": {
     "quit": ["escape", "C-q"],
+    "save": "C-s",
     "find": "C-f"
   }
 }
