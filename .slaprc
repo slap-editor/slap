@@ -103,7 +103,7 @@
   "bindings": {
     "quit": ["escape", "C-q"],
     "save": "C-s",
-    "saveAs": "C-S-s",
+    "saveAs": ["C-S-s", "M-S-s"],
     "find": "C-f"
   }
 }
