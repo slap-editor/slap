@@ -96,6 +96,7 @@
     "header": "",
     "changed": "{yellow-fg}{bold}",
     "info": "{blue-bg}{white-fg}",
+    "success": "{green-bg}{white-fg}",
     "warning": "{yellow-bg}{black-fg}",
     "error": "{red-bg}{white-fg}",
     "prompt": ""
