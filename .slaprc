@@ -1,5 +1,6 @@
 {
   "messageDuration": 5000,
+  "blinkRate": 500,
   "editor": {
     "useSpaces": false,
     "tabSize": 4,
@@ -99,6 +100,7 @@
     "success": "{green-bg}{white-fg}",
     "warning": "{yellow-bg}{black-fg}",
     "error": "{red-bg}{white-fg}",
+    "blink": "{inverse}",
     "prompt": ""
   },
   "bindings": {
