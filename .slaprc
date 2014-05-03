@@ -1,5 +1,5 @@
 {
-  "messageDuration": 1000,
+  "messageDuration": 5000,
   "editor": {
     "useSpaces": false,
     "tabSize": 4,
@@ -95,6 +95,9 @@
     "main": "{magenta-bg}",
     "header": "",
     "changed": "{yellow-fg}{bold}",
+    "info": "{blue-bg}{white-fg}",
+    "warning": "{yellow-bg}{black-fg}",
+    "error": "{red-bg}{white-fg}",
     "prompt": ""
   },
   "bindings": {
