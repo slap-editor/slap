@@ -2,4 +2,4 @@
 /*global require*/
 
 require('./markup');
-require('./editor');
+require('./textUtil');

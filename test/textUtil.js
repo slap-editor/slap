@@ -2,7 +2,7 @@
 /*global require, global*/
 
 var test = require('tape');
-var textUtil = require('../lib/text');
+var textUtil = require('../lib/textUtil');
 
 test("textUtil", function (t) {
   t.test(".splitLines", function (st) {
