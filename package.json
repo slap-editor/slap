@@ -26,7 +26,8 @@
     "undo.js": "^0.1.0",
     "highlight.js": "beardtree/highlight.js#slap",
     "cheerio": "^0.15.0",
-    "lex": "^1.7.5"
+    "lex": "^1.7.5",
+    "bluebird": "^1.2.4"
   },
   "devDependencies": {
     "tape": "^2.12.3"
