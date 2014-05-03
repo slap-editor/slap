@@ -92,6 +92,13 @@
       "toggleInsertMode": "insert"
     }
   },
+  "field": {
+    "height": 1,
+    "bindings": {
+      "submit": "enter",
+      "cancel": "escape"
+    }
+  },
   "style": {
     "main": "{magenta-bg}",
     "header": "",
