@@ -114,6 +114,7 @@
     "quit": ["escape", "C-q"],
     "save": "C-s",
     "saveAs": ["C-S-s", "M-S-s"],
-    "find": "C-f"
+    "find": "C-f",
+    "goLine": "C-g"
   }
 }
