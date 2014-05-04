@@ -21,7 +21,6 @@
     "lazy.js": "^0.3.2",
     "xtend": "^3.0.0",
     "rc": "^0.3.5",
-    "optimist": "^0.6.1",
     "copy-paste": "beardtree/node-copy-paste",
     "undo.js": "^0.1.0",
     "highlight.js": "beardtree/highlight.js#slap",
