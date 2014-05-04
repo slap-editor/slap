@@ -95,6 +95,10 @@
   },
   "field": {
     "height": 1,
+    "cursorPadding": {"left": 2, "right": 2, "top": 0, "bottom": 0},
+    "style": {
+      "currentLine": "{blue-bg}{underline}"
+    },
     "bindings": {
       "submit": "enter",
       "cancel": "escape"
