@@ -6,6 +6,7 @@
     "tabSize": 4,
     "pageLines": 10,
     "doubleClickDuration": 600,
+    "cursorPadding": {"top": 2, "left": 2, "right": 2, "bottom": 2},
     "style": {
       "selection": "{cyan-bg}",
       "currentLine": "{blue-bg}",
