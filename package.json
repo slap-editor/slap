@@ -18,15 +18,16 @@
   "license": "MIT",
   "dependencies": {
     "blessed": "beardtree/blessed",
-    "lazy.js": "^0.3.2",
-    "xtend": "^3.0.0",
-    "rc": "^0.3.5",
-    "copy-paste": "beardtree/node-copy-paste",
-    "undo.js": "^0.1.0",
-    "highlight.js": "beardtree/highlight.js#slap",
+    "bluebird": "^1.2.4",
     "cheerio": "^0.15.0",
+    "copy-paste": "beardtree/node-copy-paste",
+    "entities": "^1.1.1",
+    "highlight.js": "beardtree/highlight.js#slap",
+    "lazy.js": "^0.3.2",
     "lex": "^1.7.5",
-    "bluebird": "^1.2.4"
+    "rc": "^0.3.5",
+    "undo.js": "^0.1.0",
+    "xtend": "^3.0.0"
   },
   "devDependencies": {
     "tape": "^2.12.3"
