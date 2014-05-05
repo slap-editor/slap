@@ -23,8 +23,10 @@ Usage
 ### Configuration
 
 slap uses [rc](https://github.com/dominictarr/rc#standards) for configuration
-management. See the default [.slaprc](.slaprc) for configuration options. You
-can also pass options in via command line: `slap --editor.tabSize 2 file.c`
+management. See the default [configuration](slap.ini) for keybindings, styles,
+etc. You can also pass options in via command line:
+
+    $ slap --editor.tabSize 2 file.c
 
 Issues
 ------
