@@ -93,8 +93,7 @@
       "indent": ["tab", "C-tab"],
       "dedent": "S-tab",
       "undo": "C-z",
-      "redo": "C-y",
-      "toggleInsertMode": "insert"
+      "redo": "C-y"
     }
   },
   "field": {
@@ -124,6 +123,7 @@
     "save": "C-s",
     "saveAs": ["C-S-s", "M-S-s"],
     "find": "C-f",
-    "goLine": "C-g"
+    "goLine": "C-g",
+    "toggleInsertMode": "insert"
   }
 }
