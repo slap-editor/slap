@@ -25,6 +25,7 @@
     "highlight.js": "beardtree/highlight.js#slap",
     "lazy.js": "^0.3.2",
     "lex": "^1.7.5",
+    "lodash": "^2.4.1",
     "rc": "^0.3.5",
     "undo.js": "^0.1.0",
     "xtend": "^3.0.0"
