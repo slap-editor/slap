@@ -24,11 +24,4 @@ test("markup", function (t) {
       sst.equal(markup.index(str, Infinity), str.length);
     });
   });
-  t.test(".escape", function (st) {
-    st.test("should escape curlies", function (sst) {
-      sst.plan(1);
-
-      sst.equal(markup.escape("open: {, close: }"), "open: {open}, close: {close}");
-    });
-  });
 });
