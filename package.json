@@ -1,6 +1,6 @@
 {
   "name": "slap",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "",
   "preferGlobal": true,
   "main": "index.js",
