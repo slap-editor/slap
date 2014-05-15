@@ -12,17 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/slap-editor/slap.git"
   },
+  "bugs": "https://github.com/slap-editor/slap/issues",
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "blessed": "beardtree/blessed",
+    "blessed": "slap-editor/blessed",
     "bluebird": "^1.2.4",
     "cheerio": "^0.15.0",
-    "copy-paste": "beardtree/node-copy-paste",
+    "copy-paste": "slap-editor/node-copy-paste",
     "entities": "^1.1.1",
-    "highlight.js": "beardtree/highlight.js#slap",
+    "highlight.js": "slap-editor/highlight.js#slap",
     "lazy.js": "^0.3.2",
     "lex": "^1.7.5",
     "lodash": "^2.4.1",
