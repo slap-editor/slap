@@ -32,6 +32,11 @@ change keybindings, styles, etc. You can also pass options in via command line:
 Issues
 ------
 
+### Windows support
+
+Most terminal emulators in Windows do not support mouse events. Currently slap
+does not work in Cygwin due to [joyent/node#6459](https://github.com/joyent/node/issues/6459).
+
 ### Copying and pasting
 
 Ensure xclip is installed.
