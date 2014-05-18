@@ -39,4 +39,4 @@ does not work in Cygwin due to [joyent/node#6459](https://github.com/joyent/node
 
 ### Copying and pasting
 
-Ensure xclip is installed.
+If you are using Linux or X.Org, ensure xclip is installed.
