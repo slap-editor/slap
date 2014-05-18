@@ -27,8 +27,10 @@
     "lazy.js": "^0.3.2",
     "lex": "^1.7.5",
     "lodash": "^2.4.1",
+    "longjohn": "^0.2.4",
     "rc": "^0.3.5",
     "undo.js": "^0.1.0",
+    "winston": "^0.7.3",
     "xtend": "^3.0.0"
   },
   "devDependencies": {
