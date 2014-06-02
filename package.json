@@ -1,6 +1,6 @@
 {
   "name": "slap",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "description": "CLI text editor for the masses",
   "preferGlobal": true,
   "main": "index.js",
