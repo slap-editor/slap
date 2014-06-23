@@ -5,9 +5,9 @@
 
 CLI text editor for the masses
 
-slap strives to make editing from the terminal easier. It has **first-class
-mouse support**, **GUI editor-like keybindings**, **copy/paste support**,
-**syntax highlighting for [many languages](https://github.com/isagalaev/highlight.js/tree/master/src/languages)**,
+slap is a Sublime-like editor that strives to make editing from the terminal
+easier. It has **first-class mouse support**, **GUI editor-like keybindings**,
+**copy/paste support**, **syntax highlighting for [many languages](https://github.com/isagalaev/highlight.js/tree/master/src/languages)**,
 and many other features that will make you leave nano, vim, and emacs behind.
 
 Installation
