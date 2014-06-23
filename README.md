@@ -1,4 +1,4 @@
-![Screenshot](https://github.com/slap-editor/slap/blob/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/slap-editor/slap/master/screenshot.png)
 
 ✋ slap
 ======
