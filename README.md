@@ -39,6 +39,9 @@ change keybindings, styles, etc. You can also pass options in via command line:
 [Issues](https://github.com/slap-editor/slap/issues)
 --------
 
+Join us in [#slap on Freenode](http://webchat.freenode.net/?channels=slap) for
+troubleshooting and other discussion.
+
 ### Some keys don't work!
 
 Unfortunately most terminal emulators do not support certain keystrokes and as
