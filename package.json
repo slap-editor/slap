@@ -8,6 +8,7 @@
     "slap": "./index.js"
   },
   "scripts": {
+    "start": "./index.js",
     "test": "test/index.js"
   },
   "repository": {
