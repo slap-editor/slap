@@ -25,6 +25,7 @@
     "copy-paste": "slap-editor/node-copy-paste",
     "entities": "^1.1.1",
     "highlight.js": "slap-editor/highlight.js#slap",
+    "iconv-lite": "^0.4.4",
     "lazy.js": "^0.3.2",
     "lex": "^1.7.5",
     "lodash": "^2.4.1",
