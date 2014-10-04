@@ -24,7 +24,7 @@
     "cheerio": "^0.15.0",
     "copy-paste": "slap-editor/node-copy-paste",
     "entities": "^1.1.1",
-    "highlight.js": "slap-editor/highlight.js#slap",
+    "highlight.js": "^8.2.0",
     "lazy.js": "^0.3.2",
     "lex": "^1.7.5",
     "lodash": "^2.4.1",
