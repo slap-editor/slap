@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "blessed": "slap-editor/blessed",
-    "bluebird": "^1.2.4",
+    "bluebird": "^2.3.6",
     "cheerio": "^0.15.0",
     "copy-paste": "^1.0.0",
     "entities": "^1.1.1",
