@@ -28,6 +28,7 @@ Ubuntu 12.04 users will have to use a newer version than the one which is availa
 For users of Ubuntu 12.04, the following will work:
     $ sudo apt-get install curl
     $ sudo curl -sL https://deb.nodesource.com/setup | sudo bash -
+    $ npm config set registry http://registry.npmjs.org/
 
 Usage
 -----
