@@ -20,9 +20,14 @@ from the terminal easier. It has:
 Installation
 ------------
 
-Make sure [NodeJS](http://nodejs.org/download/) is installed, then:
+Make sure an up-to-date version of [NodeJS](http://nodejs.org/download/) is installed, then:
 
     $ sudo npm install -g slap
+
+Ubuntu 12.04 users will have to use a newer version than the one which is available from the Ubuntu repos by default.
+For users of Ubuntu 12.04, the following will work:
+    $ sudo apt-get install curl
+    $ sudo curl -sL https://deb.nodesource.com/setup | sudo bash -
 
 Usage
 -----
