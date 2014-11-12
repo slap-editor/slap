@@ -34,7 +34,7 @@ Usage
 Copy some or all of the default [configuration](slap.ini) to `~/.slaprc` to
 change keybindings, styles, etc. You can also pass options in via command line:
 
-    $ slap --editor.tabSize 2 file.c
+    $ slap --logger.level debug file.c
 
 OS support
 ----------
