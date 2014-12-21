@@ -33,7 +33,10 @@ If `npm install -g slap` doesn't work, try using HTTP instead of HTTPS:
 Usage
 -----
 
-    $ slap file.c
+    $ slap file.c # open a file
+    $ slap file1.c file2.c # open two files
+    $ slap . # open current directory
+    $ slap # open a new file in current directory
 
 ### Configuration
 
