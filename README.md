@@ -40,7 +40,7 @@ Usage
 
 ### Configuration
 
-Copy some or all of the default [configuration](slap.ini) to `~/.slaprc` to
+Copy some or all of the default [configuration](slap.ini) to `~/.slap/config` to
 change keybindings, styles, etc. You can also pass options in via command line:
 
     $ slap --logger.level debug file.c
