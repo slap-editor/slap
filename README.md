@@ -24,8 +24,9 @@ Make sure an up-to-date version of [NodeJS](http://nodejs.org/download/) is inst
 
     $ sudo npm install -g slap
 
-Note: Some distributions ship a version of NodeJS which might be too old. Please make sure to visit https://github.com/joyent/node/wiki/installing-node.js-via-package-manager in order to read about how to install NodeJS on your distribution.
-If "npm install -g slap" doesn't work for you it might be the case that you have to use HTTP instead of HTTPS when receiving stuff from the npm repo:
+Note: Some operating systems ship a version of NodeJS which might be too old. Please make sure to visit [Node's official installation guide](https://github.com/joyent/node/wiki/installing-node.js-via-package-manager).
+
+If `npm install -g slap` doesn't work, try using HTTP instead of HTTPS:
 
     $ npm config set registry http://registry.npmjs.org/
 
