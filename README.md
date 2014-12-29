@@ -7,7 +7,7 @@ slap is a Sublime-like terminal-based text editor that strives to make editing
 from the terminal easier. It has:
 
 * first-class mouse support
-* GUI editor-like [keybindings](https://github.com/slap-editor/slap/blob/master/slap.ini#L43)[*](#some-keys-dont-work)
+* GUI editor-like [keybindings](slap.ini#L51)[*](#some-keys-dont-work)
 * copying/pasting with OS clipboard support
 * undo/redo
 * syntax highlighting for [many languages](https://github.com/isagalaev/highlight.js/tree/master/src/languages)
@@ -40,10 +40,16 @@ Usage
 
 ### Configuration
 
-Copy some or all of the default [configuration](slap.ini) to `~/.slap/config` to
-change keybindings, styles, etc. You can also pass options in via command line:
+You can pass options in via command line:
 
-    $ slap --logger.level debug file.c
+    $ slap --header.style.bg red file.c
+
+Or equivalently, you can use `~/.slap/config`:
+
+    [header.style]
+    bg = "red"
+
+All configuration options and their defaults are documented [here](slap.ini).
 
 OS support
 ----------
@@ -64,7 +70,7 @@ Most terminal emulators in Windows do not support mouse events, PuTTY being a
 notable exception. In Cygwin, slap crashes on startup due to
 [joyent/node#6459](https://github.com/joyent/node/issues/6459).
 
-[Issues](https://github.com/slap-editor/slap/issues/new)
+[Issues](../../issues/new)
 --------
 
 Join us in [#slap on Freenode](http://webchat.freenode.net/?channels=slap) for
@@ -76,5 +82,15 @@ nature.
 Unfortunately most terminal emulators do not support certain keystrokes and as
 such there is no way to handle them. These include `C-backspace`, `S-home/end`,
 and `S-pageup/down`. Most of these actions have alternate keybindings, inspired
-by emacs and other editors, but if you find one that doesn't work, please submit
-an [issue](https://github.com/slap-editor/slap/issues/new)!
+by emacs and other editors, but if you find one that doesn't work, please
+[submit an issue](../../issues/new)!
+
+### Too slow!
+
+Try `--editor.highlight false` or adding the following to `~/.slap/config`:
+
+    [editor]
+    highlight = false
+
+If that doesn't improve performance, please run with `--perf.profile true` and
+[submit an issue](../../issues/new) with the newly-created `v8.log` file.
