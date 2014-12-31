@@ -7,14 +7,14 @@ is_executable () {
 }
 
 alias errcho='>&2 echo'
-npm_needs_sudo=0 # true
+npm_needs_sudo=''
 
 echo "# Installing slap..."
 
 if ! (is_executable npm && is_executable node); then
   if is_executable brew; then
     brew install node
-    npm_needs_sudo=1 # false
+    npm_needs_sudo='false'
   elif is_executable port; then
     port install nodejs
   elif is_executable apt-get; then
@@ -34,7 +34,7 @@ if ! (is_executable npm && is_executable node); then
   fi
 fi
 
-if (return $npm_needs_sudo); then
+if [ -z $npm_needs_sudo ]; then
   sudo npm install -g slap
 else
   npm install -g slap
