@@ -6,15 +6,17 @@
 slap is a Sublime-like terminal-based text editor that strives to make editing
 from the terminal easier. It has:
 
-* first-class mouse support
-* GUI editor-like [keybindings](slap.ini#L51)[*](#some-keys-dont-work)
+* first-class mouse support (even over an SSH connection)
+* Configurable GUI editor-like [keybindings](slap.ini#L51)[*](#some-keys-dont-work) (Ctrl+S save, Ctrl+Z undo, etc.)
 * copying/pasting with OS clipboard support
-* undo/redo
-* syntax highlighting for [many languages](https://github.com/isagalaev/highlight.js/tree/master/src/languages)
+* infinite undo/redo
+* syntax highlighting for [100+ languages](https://github.com/isagalaev/highlight.js/tree/master/src/languages)
 * a Sublime-like file sidebar
-* select word to highlight other occurrences; double-click to select word
-* easy-to-use finding with regex support
+* double-click to select word
+* selection highlights other occurrences
+* Ctrl+F find with regex support
 * bracket matching
+* autoindentation
 * ... many other features that will make you leave nano, vim, and emacs behind
 
 Installation
