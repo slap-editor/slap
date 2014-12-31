@@ -20,23 +20,19 @@ from the terminal easier. It has:
 Installation
 ------------
 
-Make sure an up-to-date version of [NodeJS](http://nodejs.org/download/) is installed, then:
+    $ curl -sL https://raw.githubusercontent.com/slap-editor/slap/master/install.sh | sh
+
+If you already have [NodeJS](http://nodejs.org/download/) installed:
 
     $ sudo npm install -g slap
-
-Note: Some operating systems ship a version of NodeJS which might be too old. Please make sure to visit [Node's official installation guide](https://github.com/joyent/node/wiki/installing-node.js-via-package-manager).
-
-If `npm install -g slap` doesn't work, try using HTTP instead of HTTPS:
-
-    $ npm config set registry http://registry.npmjs.org/
 
 Usage
 -----
 
-    $ slap file.c # open a file
-    $ slap file1.c file2.c # open two files
-    $ slap . # open current directory
-    $ slap # open a new file in current directory
+    $ slap fish.c
+    $ slap fish1.c fish2.c
+    $ slap redfish/ # open dir in browser
+    $ slap # new file in current dir
 
 ### Configuration
 
