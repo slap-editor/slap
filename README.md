@@ -38,16 +38,14 @@ Usage
 
 ### Configuration
 
-You can pass options in via command line:
-
-    $ slap --header.style.bg red file.c
-
-Or equivalently, you can use `~/.slap/config`:
+Use `~/.slap/config` to override the defaults in [slap/slap.ini](slap.ini#L1):
 
     [header.style]
     bg = "red"
 
-All configuration options and their defaults are documented [here](slap.ini).
+Alternatively, pass options in via command line:
+
+    $ slap --header.style.bg red file.c
 
 OS support
 ----------
