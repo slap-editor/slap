@@ -35,8 +35,8 @@
     "mkdirp": "^0.5.0",
     "rc": "slap-editor/rc",
     "semver": "^4.1.1",
+    "text-buffer": "slap-editor/text-buffer",
     "traverse": "^0.6.6",
-    "undo.js": "^0.1.0",
     "winston": "^0.7.3",
     "xtend": "^3.0.0"
   },
