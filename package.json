@@ -25,6 +25,7 @@
     "cheerio": "^0.15.0",
     "copy-paste": "^1.0.0",
     "entities": "^1.1.1",
+    "get-random-port": "0.0.1",
     "highlight.js": "^8.2.0",
     "iconv-lite": "^0.4.4",
     "latest-version": "^1.0.0",
