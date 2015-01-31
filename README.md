@@ -7,16 +7,15 @@ slap is a Sublime-like terminal-based text editor that strives to make editing
 from the terminal easier. It has:
 
 * first-class mouse support (even over an SSH connection)
+* a Sublime-like file sidebar
+* double-click to select word, highlight other occurrences
 * configurable Sublime-like [keybindings](slap.ini#L51)[*](#some-keys-dont-work) (Ctrl+S save, Ctrl+Z undo, etc.)
 * copying/pasting with OS clipboard support
 * infinite undo/redo
 * syntax highlighting for [100+ languages](https://github.com/isagalaev/highlight.js/tree/master/src/languages)
-* a Sublime-like file sidebar
-* double-click to select word
-* selection highlights other occurrences
-* Ctrl+F find with regex support
 * bracket matching
 * autoindentation
+* heavily customizeable via [plugins](#plugins)
 * ... many other features that will make you leave nano, vim, and emacs behind
 
 Installation
@@ -46,6 +45,16 @@ Use `~/.slap/config` to override the defaults in [slap/slap.ini](slap.ini#L1):
 Alternatively, pass options in via command line:
 
     $ slap --header.style.bg red file.c
+
+### Plugins
+
+Slap is fully customizeable and supports plugins written in JS. You can place
+single JS files, or NodeJS packages, into `~/.slap/plugins/`.
+
+To write your own plugin, a good starting point is
+[slap-clipboard-plugin](https://github.com/slap-editor/slap-clipboard-plugin).
+Please note that plugin packages must have `"keywords": ["slap-plugin"]` in
+`package.json`.
 
 OS support
 ----------
