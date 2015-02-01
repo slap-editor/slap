@@ -34,7 +34,7 @@
     "longjohn": "^0.2.4",
     "mkdirp": "^0.5.0",
     "rc": "slap-editor/rc",
-    "slap-clipboard-plugin": "^0.0.2",
+    "slap-clipboard-plugin": "^0.0.4",
     "text-buffer": "slap-editor/text-buffer",
     "traverse": "^0.6.6",
     "update-notifier": "^0.3.0",
