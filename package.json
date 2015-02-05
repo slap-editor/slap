@@ -1,6 +1,6 @@
 {
   "name": "slap",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Sublime-like terminal-based text editor",
   "preferGlobal": true,
   "main": "index.js",
