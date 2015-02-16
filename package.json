@@ -23,7 +23,6 @@
   "dependencies": {
     "blessed": "slap-editor/blessed",
     "bluebird": "^2.3.6",
-    "chardet": "^0.0.8",
     "cheerio": "^0.15.0",
     "highlight.js": "^8.2.0",
     "iconv-lite": "^0.4.4",
