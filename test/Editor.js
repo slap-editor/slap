@@ -18,7 +18,7 @@ module.exports = function (t) {
           ssst.plan(1);
     
           var perms000File = 'fixtures/perms-000';
-          // fs.chmodSync(perms000File, '000'); // can't be checked in with 000 perms
+          fs.chmodSync(perms000File, '000'); // can't be checked in with 000 perms
           editor.open(perms000File).done(function () {
             ssst.equal(editor.textBuf.getText(), '');
             ssst.done();
