@@ -2,3 +2,4 @@
 /*global require*/
 
 require('./textUtil');
+require('./cli');
