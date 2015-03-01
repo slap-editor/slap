@@ -21,7 +21,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "blessed": "slap-editor/blessed",
+    "blessed": "0.0.49",
     "bluebird": "^2.3.6",
     "cheerio": "^0.15.0",
     "highlight.js": "^8.2.0",
