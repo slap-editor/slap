@@ -12,7 +12,7 @@ module.exports = function (t) {
       var editor = pane.editor;
 
       st.test(".open", function (sst) {
-        sst.skip("should open a file with perms 000 correctly", function (ssst) {
+        sst.test("should open a file with perms 000 correctly", function (ssst) {
           ssst.plan(1);
 
           var perms000File = '/Users/dan/stuff/slap/test/fixtures/perms-000';
