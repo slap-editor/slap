@@ -2,6 +2,7 @@
 /*global require, global*/
 
 var test = require('tape');
+var Promise = require('bluebird');
 var through2 = require('through2');
 var fs = require('fs');
 
@@ -16,14 +17,15 @@ test("cli", function (t) {
   var output = through2();
   output.isTTY = true;
 
-  cli({input: input, output: output})
-    .tap(require('./Editor')(t))
-    .done(function (slap) {
-      t.test("should create an instance of slap", function (st) {
-        st.plan(1);
+  Promise.using(cli({input: input, output: output}), function (slap) {
+    t.test("should create an instance of slap", function (st) {
+      st.plan(1);
 
-        st.ok(slap instanceof Slap);
-      });
-      slap.quit();
+      st.ok(slap instanceof Slap);
     });
+
+    require('./Editor')(t)(slap);
+
+    return new Promise(function (resolve) { t.on('end', resolve); });
+  }).done();
 });
