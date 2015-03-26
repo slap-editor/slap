@@ -1,0 +1,266 @@
+{
+  # This is the default slap configuration. You can override these settings in
+  # ~/.slap/config.
+  #
+  # Configuration settings are grouped by component.
+  # To change key bindings look at "bindings" in the specific component.
+  # Styles can be found in the "style" elements.
+  #
+  # Available styles:
+  #   bold, underline, blink, inverse, invisible, (light)black, (light)red,
+  #   (light)green, (light)yellow, (light)blue, (light)magenta, (light)cyan,
+  #   (light)white
+
+  editor: {
+    pageLines: 10
+    doubleClickDuration: 600
+    defaultEncoding: UTF-8
+    highlight: true
+    buffer: {
+      useSpaces: true
+      tabSize: 2
+      visibleWhiteSpace: false
+      visibleLineEndings: false
+      cursorPadding: {
+        top: 2
+        left: 2
+        right: 2
+        bottom: 2
+      }
+    }
+    gutter: {
+      width: 6
+      lineNumberWidth: 4
+      style: {
+        bg: magenta
+        currentLine: "{white-bg}{magenta-fg}{bold}"
+      }
+    }
+
+    bindings: {
+      goLeft: left
+      goLeftWord: [ "C-left", "M-left", "\u001b\u001b[D", "M-b", "M-S-b" ]
+      goLeftInfinity: [ "home", "C-a" ]
+      goRight: right
+      goRightWord: [ "C-right", "M-right", "\u001b\u001b[C", "M-f", "M-S-f" ]
+      goRightInfinity: [ "end", "C-e" ]
+      goUpParagraph: [ "\u001b\u001b[A", "C-up", "M-up", "M-{" ]
+      goUp: up
+      goUpPage: pageup
+      goUpInfinity: [ "C-home", "M-home", "M-<" ]
+      goDownParagraph: [ "\u001b\u001b[B", "C-down", "M-down", "M-}" ]
+      goDown: down
+      goDownPage: pagedown
+      goDownInfinity: [ "C-end", "M-end", "M->" ]
+      goMatchingBracket: [ "C-m", "C-]", "\u001d" ]
+      # selectAll: C-a # C-a used for goLeftInfinity
+      selectLeft: S-left
+      selectLeftWord: [ "C-S-left", "M-S-left" ]
+      selectLeftInfinity: S-home
+      selectRight: S-right
+      selectRightWord: [ "C-S-right", "M-S-right" ]
+      selectRightInfinity: S-end
+      selectUp: S-up
+      selectUpParagraph: [ "C-S-up", "M-S-up" ]
+      selectUpPage: S-pageup
+      selectUpInfinity: [ "C-S-home", "M-S-home" ]
+      selectDown: S-down
+      selectDownParagraph: [ "C-S-down", "M-S-down" ]
+      selectDownPage: S-pagedown
+      selectDownInfinity: [ "C-S-end", "M-S-end" ]
+      selectMatchingBracket: C-S-m
+      deleteLeft: backspace
+      deleteRight: delete
+      deleteLeftWord: [ "C-backspace", "M-backspace", "C-d", "M-delete" ]
+      deleteRightWord: [ "C-delete", "M-d" ]
+      deleteLeftInfinity: [ "C-S-backspace", "M-S-backspace" ]
+      deleteRightInfinity: [ "C-S-delete", "M-S-delete" ]
+      deleteLine: C-k
+      duplicateLine: C-b
+      indent: [ "tab", "C-tab" ]
+      dedent: S-tab
+      undo: C-z
+      redo: C-y
+      focusNext: false
+      focusPrev: false
+    }
+
+    style: {
+      selection: "{cyan-bg}"
+      match: "{yellow-bg}"
+      matchingBracket: "{green-bg}{bold}"
+      mismatchedBracket: "{red-bg}{bold}"
+      whiteSpace: "{magenta-fg}"
+      keyword: "{red-fg}"
+      built_in: "{yellow-fg}"
+      preprocessor: "{red-fg}"
+      title: "{underline}"
+      params: "{bold}"
+      class: ""
+      function: ""
+      decorator: "{bold}"
+      shebang: "{yellow-bg}{black-fg}"
+      variable: "{yellow-fg}"
+      operator: "{green-fg}"
+      subst: ""
+      number: "{green-fg}{bold}"
+      string: "{green-fg}{bold}"
+      regexp: "{green-fg}{bold}"
+      literal: "{green-fg}{bold}"
+      comment: "{white-bg}{black-fg}"
+      header: "{bold}"
+      strong: "{bold}"
+      code: "{green-fg}"
+      link_label: ""
+      link_url: "{yellow-fg}"
+      bullet: "{blue-fg}"
+      attribute: ""
+      value: ""
+      setting: ""
+      label: ""
+      symbol: ""
+      constant: ""
+    }
+    perf: {
+      matchesRenderThrottle: 150
+      updateContentThrottle: 16
+    }
+  }
+
+  header: {
+    messageDuration: 5000
+    blinkRate: 500
+    headerPosition: top
+    style: {
+      bg: magenta
+      changed: "{yellow-fg}{bold}"
+      info: "{blue-bg}{white-fg}"
+      success: "{green-bg}{white-fg}"
+      warning: "{yellow-bg}{black-fg}"
+      error: "{red-bg}{white-fg}"
+      blinkStyle: "{inverse}"
+      overwrite: "{red-bg}{white-fg}"
+    }
+  }
+
+  fileBrowser: {
+    width: 12
+    selectedBg: blue
+  }
+
+  logger: {
+    level: info
+  }
+
+  bindings: {
+    new: C-n
+    open: C-o
+    nextPane: C-M-pagedown
+    prevPane: C-M-pageup
+    toggleFileBrowser: f10
+    toggleInsertMode: insert
+    quit: C-q
+    help: f2
+  }
+
+  perf: {
+    profile: false
+    renderThrottle: null
+  }
+
+  field: {
+    buffer: {
+      cursorPadding: {
+        left: 2
+        right: 2
+        top: 0
+        bottom: 0
+      }
+    }
+    bindings: {
+      submit: enter
+    }
+    style: {
+      default: "{underline}"
+    }
+  }
+
+  pane: {
+    bindings: {
+      saveAs: C-s
+      close: C-w
+      find: C-f
+      goLine: C-g
+    }
+  }
+
+  form: {
+    bindings: {
+      cancel: escape
+    }
+    baseFind: {
+      bindings: {
+        next: [ "enter", "down" ]
+        prev: up
+      }
+    }
+    style: {
+      bg: magenta
+      bold: true
+    }
+    find: {
+      perf: {
+        findThrottle: 150
+      }
+    }
+  }
+
+  dialog: {
+    bindings: {
+      hide: escape
+    }
+    style: {
+      bg: magenta
+    }
+  }
+
+  element: {
+    bindings: {
+      focusNext: [ "tab", "right" ]
+      focusPrev: [ "S-tab", "left" ]
+    }
+  }
+
+  button: {
+    style: {
+      bg: white
+      fg: black
+      bold: true
+      hover: {
+        bg: blue
+        fg: white
+      }
+    }
+    success: {
+      style: {
+        hover: {
+          bg: green
+        }
+      }
+    }
+    warning: {
+      style: {
+        hover: {
+          bg: yellow
+        }
+      }
+    }
+    danger: {
+      style: {
+        hover: {
+          bg: red
+        }
+      }
+    }
+  }
+}
