@@ -9,7 +9,7 @@ from the terminal easier. It has:
 * first-class mouse support (even over an SSH connection)
 * a Sublime-like file sidebar
 * double-click to select word, highlight other occurrences
-* configurable Sublime-like [keybindings](slap.ini#L51)[*](#some-keys-dont-work) (Ctrl+S save, Ctrl+Z undo, etc.)
+* configurable Sublime-like [keybindings](slap.hjson)[*](#some-keys-dont-work) (Ctrl+S save, Ctrl+Z undo, etc.)
 * copying/pasting with OS clipboard support
 * infinite undo/redo
 * syntax highlighting for [100+ languages](https://github.com/isagalaev/highlight.js/tree/master/src/languages)
@@ -37,7 +37,7 @@ Usage
 
 ### Configuration
 
-Use `~/.slap/config` to override the defaults in [slap/slap.ini](slap.ini#L1):
+Use `~/.slap/config` to override the defaults in [slap/slap.hjson](slap.hjson#L1):
 
     [header.style]
     bg = "red"

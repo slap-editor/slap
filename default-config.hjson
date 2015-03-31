@@ -1,0 +1,7 @@
+# This is your customizable slap configuration. Defaults are located here:
+# https://github.com/slap-editor/slap/blob/master/slap.hjson
+{
+  logger: {
+    level: info
+  }
+}
