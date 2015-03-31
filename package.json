@@ -3,15 +3,15 @@
   "version": "0.1.16",
   "description": "Sublime-like terminal-based text editor",
   "preferGlobal": true,
-  "main": "index.js",
+  "main": "lib/cli.js",
   "bin": {
     "slap": "./index.js"
   },
   "scripts": {
     "start": "./index.js",
-    "cover": "istanbul cover ./index.js",
     "debug": "node-debug ./index.js",
-    "test": "test/index.js"
+    "test": "test/index.js",
+    "cover": "istanbul cover test/index.js"
   },
   "repository": {
     "type": "git",
@@ -42,6 +42,7 @@
     "get-random-port": "0.0.1",
     "istanbul": "^0.3.5",
     "node-inspector": "^0.8.3",
+    "npm": "^2.7.4",
     "tape": "^2.12.3",
     "through2": "^0.6.3"
   }
