@@ -32,7 +32,7 @@
     "mkdirp": "^0.5.0",
     "node-clap": "^0.0.3",
     "rc": "^1.0.0",
-    "slap-clipboard-plugin": "^0.0.8",
+    "slap-clipboard-plugin": "^0.0.9",
     "text-buffer": "^4.1.0",
     "traverse": "^0.6.6",
     "update-notifier": "^0.3.0",
