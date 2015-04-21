@@ -21,7 +21,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "blessed": "0.1.0",
+    "blessed": "0.1.5",
     "bluebird": "^2.3.6",
     "cheerio": "^0.15.0",
     "highlight.js": "^8.2.0",
