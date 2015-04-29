@@ -61,9 +61,8 @@ OS support
 
 ### OSX
 
-iTerm2 works best. Terminal.app does not support some default keybindings but
-mouse support works well with the [MouseTerm](https://bitheap.org/mouseterm/)
-[SIMBL](http://www.culater.net/software/SIMBL/SIMBL.php) plugin.
+iTerm2 supports the mouse and most keybindings out of the box. For optimal
+Terminal.app usage, see [slap-Terminal.app-profile](https://github.com/slap-editor/slap-Terminal.app-profile).
 
 ### Linux
 
