@@ -36,14 +36,14 @@ if ! (is_executable npm && is_executable node && is_executable git); then
   fi
 fi
 
-if [ -z $npm_needs_sudo ]; then
-  if [ -z $needs_python_env ]; then
+if [ -z "$npm_needs_sudo" ]; then
+  if [ -n '$needs_python_env' ]; then
     sudo PYTHON=python2 npm install -g slap
   else
     sudo npm install -g slap
   fi
 else
-  if [ -z $needs_python_env ]; then
+  if [ -n '$needs_python_env' ]; then
     PYTHON=python2 npm install -g slap
   else
     npm install -g slap
