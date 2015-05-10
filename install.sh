@@ -8,7 +8,7 @@ is_executable () {
 
 alias errcho='>&2 echo'
 npm_needs_sudo=''
-needs_python_env='false'
+needs_python_env=''
 
 echo "# Installing slap..."
 
@@ -37,13 +37,13 @@ if ! (is_executable npm && is_executable node && is_executable git); then
 fi
 
 if [ -z "$npm_needs_sudo" ]; then
-  if [ -n '$needs_python_env' ]; then
+  if [ -n "$needs_python_env" ]; then
     sudo PYTHON=python2 npm install -g slap
   else
     sudo npm install -g slap
   fi
 else
-  if [ -n '$needs_python_env' ]; then
+  if [ -n "$needs_python_env" ]; then
     PYTHON=python2 npm install -g slap
   else
     npm install -g slap
