@@ -8,6 +8,7 @@ is_executable () {
 
 alias errcho='>&2 echo'
 npm_needs_sudo=''
+needs_python_env='false'
 
 echo "# Installing slap..."
 
@@ -27,6 +28,7 @@ if ! (is_executable npm && is_executable node && is_executable git); then
     emerge nodejs git
   elif is_executable pacman; then
     pacman -S nodejs npm git
+    needs_python_env='true'
   else
     errcho "Couldn't determine OS. Please install NodeJS manually, then run this script again."
     errcho "Visit https://github.com/joyent/node/wiki/installing-node.js-via-package-manager for instructions on how to install NodeJS on your OS."
@@ -35,7 +37,15 @@ if ! (is_executable npm && is_executable node && is_executable git); then
 fi
 
 if [ -z $npm_needs_sudo ]; then
-  sudo npm install -g slap
+  if [ -z $needs_python_env ]; then
+    sudo PYTHON=python2 npm install -g slap
+  else
+    sudo npm install -g slap
+  fi
 else
-  npm install -g slap
+  if [ -z $needs_python_env ]; then
+    PYTHON=python2 npm install -g slap
+  else
+    npm install -g slap
+  fi
 fi
