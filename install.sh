@@ -26,7 +26,7 @@ if ! (is_executable npm && is_executable node && is_executable git); then
   elif is_executable emerge; then
     emerge nodejs git
   elif is_executable pacman; then
-    pacman -S nodejs git
+    pacman -S nodejs npm git
   else
     errcho "Couldn't determine OS. Please install NodeJS manually, then run this script again."
     errcho "Visit https://github.com/joyent/node/wiki/installing-node.js-via-package-manager for instructions on how to install NodeJS on your OS."
