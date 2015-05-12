@@ -7,15 +7,12 @@ is_executable () {
 }
 
 alias errcho='>&2 echo'
-npm_needs_sudo=''
-needs_python_env=''
 
 echo "# Installing slap..."
 
 if ! (is_executable npm && is_executable node && is_executable git); then
   if is_executable brew; then
     brew install node git
-    npm_needs_sudo='false'
   elif is_executable port; then
     port install nodejs git
   elif is_executable apt-get; then
@@ -28,7 +25,6 @@ if ! (is_executable npm && is_executable node && is_executable git); then
     emerge nodejs git
   elif is_executable pacman; then
     pacman -S nodejs npm git
-    needs_python_env='true'
   else
     errcho "Couldn't determine OS. Please install NodeJS manually, then run this script again."
     errcho "Visit https://github.com/joyent/node/wiki/installing-node.js-via-package-manager for instructions on how to install NodeJS on your OS."
@@ -36,16 +32,6 @@ if ! (is_executable npm && is_executable node && is_executable git); then
   fi
 fi
 
-if [ -z "$npm_needs_sudo" ]; then
-  if [ -n "$needs_python_env" ]; then
-    sudo PYTHON=python2 npm install -g slap
-  else
-    sudo npm install -g slap
-  fi
-else
-  if [ -n "$needs_python_env" ]; then
-    PYTHON=python2 npm install -g slap
-  else
-    npm install -g slap
-  fi
-fi
+is_executable python2 && PYTHON='python2'
+maybe_sudo="$([ -w "$(npm get prefix)/lib/node_modules" ] || echo 'sudo')"
+$maybe_sudo npm install -g slap
