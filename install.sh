@@ -6,7 +6,9 @@ is_executable () {
   command -v "$1" >/dev/null 2>&1
 }
 
-alias errcho='>&2 echo'
+errcho () {
+  >&2 echo "$@"
+}
 
 echo "# Installing slap..."
 
