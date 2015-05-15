@@ -25,7 +25,7 @@ Installation
 
 If you already have [NodeJS](http://nodejs.org/download/) installed:
 
-    $ sudo npm install -g slap
+    $ sudo npm install -g slap@latest
 
 Usage
 -----

@@ -36,4 +36,4 @@ fi
 
 is_executable python2 && PYTHON='python2'
 maybe_sudo="$([ -w "$(npm get prefix)/lib/node_modules" ] || echo 'sudo')"
-$maybe_sudo npm install -g slap
+$maybe_sudo npm install -g slap@latest
