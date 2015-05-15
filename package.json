@@ -33,7 +33,7 @@
     "node-clap": "^0.0.4",
     "rc": "^1.0.0",
     "slap-clipboard-plugin": "^0.0.10",
-    "text-buffer": "^4.1.0",
+    "text-buffer": "4.1.2",
     "traverse": "^0.6.6",
     "update-notifier": "^0.3.0",
     "winston": "^0.7.3",
