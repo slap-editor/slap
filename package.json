@@ -8,8 +8,8 @@
     "slap": "./bin/slap.js"
   },
   "scripts": {
-    "start": "./index.js",
-    "debug": "node-debug ./index.js",
+    "start": "./bin/slap.js",
+    "debug": "node-debug ./bin/slap.js",
     "test": "test/index.js",
     "cover": "istanbul cover test/index.js"
   },
