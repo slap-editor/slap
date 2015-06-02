@@ -5,7 +5,7 @@
   "preferGlobal": true,
   "main": "lib/cli.js",
   "bin": {
-    "slap": "./index.js"
+    "slap": "./bin/slap.js"
   },
   "scripts": {
     "start": "./index.js",
