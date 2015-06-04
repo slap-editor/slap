@@ -1,6 +1,7 @@
 /*global require, global*/
 
 var fs = require('fs');
+var path = require('path');
 
 var Pane = require('../lib/ui/Pane');
 
@@ -14,7 +15,7 @@ module.exports = function (t) {
         sst.test("should open a file with perms 000 correctly", function (ssst) {
           ssst.plan(1);
 
-          var perms000File = '/Users/dan/stuff/slap/test/fixtures/perms-000';
+          var perms000File = path.resolve(__dirname, 'fixtures/perms-000');
 
           // can't be checked in with 000 perms
           var originalPerms = (fs.statSync(perms000File).mode.toString(8).match(/[0-7]{3}$/) || [])[0] || '644';
