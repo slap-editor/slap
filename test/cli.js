@@ -24,8 +24,6 @@ test("cli", function (t) {
       st.ok(slap instanceof Slap);
     });
 
-    require('./Editor')(t)(slap);
-
     return new Promise(function (resolve) { t.on('end', resolve); });
   }).done();
 });
