@@ -25,7 +25,6 @@
     "blessed": "^0.1.60",
     "bluebird": "^2.3.6",
     "editor-widget": "dbkaplun/editor-widget",
-    "iconv-lite": "^0.4.4",
     "lazy.js": "^0.4.0",
     "lodash": "^3.9.3",
     "longjohn": "^0.2.4",
@@ -39,10 +38,8 @@
     "winston": "^1.0.0"
   },
   "devDependencies": {
-    "get-random-port": "0.0.1",
     "istanbul": "^0.3.5",
     "node-inspector": "^0.10.0",
-    "npm": "^2.7.4",
     "tape": "^2.12.3",
     "through2": "^0.6.3"
   },
