@@ -26,14 +26,12 @@
     "bluebird": "^2.3.6",
     "editor-widget": "^1.0.0",
     "lodash": "^3.9.3",
-    "longjohn": "^0.2.4",
     "mkdirp": "^0.5.0",
     "node-clap": "^0.0.5",
     "rc": "^1.0.0",
     "slap-clipboard-plugin": "^0.0.12",
     "slap-util": "^1.0.1",
-    "update-notifier": "^0.5.0",
-    "winston": "^1.0.0"
+    "update-notifier": "^0.5.0"
   },
   "devDependencies": {
     "istanbul": "^0.3.5",
