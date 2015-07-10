@@ -21,16 +21,16 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "base-widget": "^1.0.2",
+    "base-widget": "^1.0.3",
     "blessed": "^0.1.60",
     "bluebird": "^2.3.6",
-    "editor-widget": "^1.0.3",
+    "editor-widget": "^1.0.4",
     "lodash": "^3.9.3",
     "mkdirp": "^0.5.0",
     "node-clap": "^0.0.5",
     "rc": "^1.0.0",
     "slap-clipboard-plugin": "^0.0.12",
-    "slap-util": "^1.0.2",
+    "slap-util": "^1.0.3",
     "update-notifier": "^0.5.0"
   },
   "devDependencies": {
