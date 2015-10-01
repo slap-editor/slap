@@ -91,6 +91,11 @@ by emacs and other editors, but if you find one that doesn't work, please
 
 ### Too slow!
 
+slap is based on Github Atom's internal *text-buffer* implementation, and as
+such should be very performant, even with large files. There are a few
+performance bottlenecks that still exist related to rendering, but should not
+affect daily usage.
+
 Try `--editor.highlight false` or adding the following to `~/.slap/config`:
 
     [editor]
