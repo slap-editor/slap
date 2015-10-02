@@ -37,7 +37,7 @@
     "get-random-port": "0.0.1",
     "istanbul": "0.3.21",
     "node-inspector": "0.12.3",
-    "tape": "2.14.0"
+    "tape": "4.2.1"
   },
   "engines": {
     "node": "<0.11 >=0.12.5"
