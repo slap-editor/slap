@@ -89,12 +89,12 @@ and `S-pageup/down`. Most of these actions have alternate keybindings, inspired
 by emacs and other editors, but if you find one that doesn't work, please
 [submit an issue](../../issues/new)!
 
-### Too slow!
+### Slow on single cores, Raspberry Pi
 
-slap is based on Github Atom's internal *text-buffer* implementation, and as
-such should be very performant, even with large files. There are a few
-performance bottlenecks that still exist related to rendering, but should not
-affect daily usage.
+slap is based on Github's [atom/text-buffer](https://github.com/atom/text-buffer),
+and as such should be very performant, even with very large files. There are a
+few performance bottlenecks that still exist related to rendering, but should
+not affect most use cases.
 
 Try `--editor.highlight false` or adding the following to `~/.slap/config`:
 
