@@ -21,7 +21,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "base-widget": "1.0.5",
+    "base-widget": "1.0.7",
     "blessed": "0.1.81",
     "bluebird": "2.10.2",
     "editor-widget": "1.0.12",
