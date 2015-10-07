@@ -9,7 +9,7 @@ from the terminal easier. It has:
 * first-class mouse support (even over an SSH connection)
 * a Sublime-like file sidebar
 * double-click to select word, highlight other occurrences
-* configurable Sublime-like [keybindings](slap.ini#L51)[*](#some-keys-dont-work) (Ctrl+S save, Ctrl+Z undo, etc.)
+* configurable Sublime-like [keybindings](#default-keybindings)[*](#some-keys-dont-work) (Ctrl+S save, Ctrl+Z undo, etc.)
 * copying/pasting with OS clipboard support
 * infinite undo/redo
 * syntax highlighting for [100+ languages](https://github.com/isagalaev/highlight.js/tree/master/src/languages)
@@ -32,17 +32,31 @@ Usage
 
     $ slap fish.c
     $ slap fish1.c fish2.c
-    $ slap redfish/ # open dir in browser
-    $ slap # new file in current dir
+    $ slap redfish/ # open dir
+    $ slap # new file
+
+### Default keybindings
+
+* **Quit**: <kbd>Ctrl+Q</kbd>
+* **Movement**: mouse or arrow keys and <kbd>PageUp/Down</kbd>/<kbd>Home</kbd>/<kbd>End</kbd>
+  * <kbd>Shift</kbd> or click+drag to select, <kbd>Ctrl</kbd>/<kbd>Alt</kbd> to move faster
+* **Save**: <kbd>Ctrl+S</kbd>
+* **Undo**: <kbd>Ctrl+Z</kbd>, **redo**: <kbd>Ctrl+Y</kbd>
+* **Next/previous tab**: <kbd>Ctrl+Alt+PageUp/Down</kbd>
+* **Close tab**: <kbd>Ctrl+W</kbd>
+* **Find**: <kbd>Ctrl+F</kbd>
+* **Go to line**: <kbd>Ctrl+G</kbd>
+* **Go to matching bracket**: <kbd>Ctrl+]</kbd>
+* **Open**: <kbd>Ctrl+O</kbd> (or click the filebrowser)
+* **New file**: <kbd>Ctrl+N</kbd>
 
 ### Configuration
 
-Use `~/.slap/config` to override the defaults in [slap/slap.ini](slap.ini#L1):
+slap supports INI or JSON config files. You can put configuration [wherever rc can find it](https://github.com/dominictarr/rc#standards).
+A mostly empty configuration file with some useful comments is created in [`~/.slap/config`](default-config.ini)
+if an existing file isn't found.
 
-    [header.style]
-    bg = "red"
-
-Alternatively, pass options in via command line:
+Pass configuration via command line:
 
     $ slap --header.style.bg red file.c
 
