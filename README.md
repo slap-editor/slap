@@ -92,9 +92,7 @@ by emacs and other editors, but if you find one that doesn't work, please
 ### Slow on single cores, Raspberry Pi
 
 slap is based on Github's [atom/text-buffer](https://github.com/atom/text-buffer),
-and as such should be very performant, even with very large files. There are a
-few performance bottlenecks that still exist related to rendering, but should
-not affect most use cases.
+and as such should be very performant, even with very large files.
 
 Try `--editor.highlight false` or adding the following to `~/.slap/config`:
 
