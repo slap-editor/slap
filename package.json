@@ -38,8 +38,5 @@
     "istanbul": "0.4.0",
     "node-inspector": "0.12.3",
     "tape": "4.2.2"
-  },
-  "engines": {
-    "node": "<0.11 >=0.12.5"
   }
 }
