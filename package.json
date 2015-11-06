@@ -24,7 +24,7 @@
     "base-widget": "1.0.9",
     "blessed": "0.1.81",
     "bluebird": "3.0.5",
-    "editor-widget": "1.0.15",
+    "editor-widget": "1.0.17",
     "lodash": "3.10.1",
     "mkdirp": "0.5.1",
     "node-clap": "0.0.5",
