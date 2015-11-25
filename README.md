@@ -97,6 +97,8 @@ nature.
 
 ### Some keys don't work!
 
+*NOTE: if you are using Terminal.app, see [slap-Terminal.app-profile](https://github.com/slap-editor/slap-Terminal.app-profile).*
+
 Unfortunately most terminal emulators do not support certain keystrokes and as
 such there is no way to handle them. These include `C-backspace`, `S-home/end`,
 and `S-pageup/down`. Most of these actions have alternate keybindings, inspired
