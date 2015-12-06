@@ -35,7 +35,7 @@
   "devDependencies": {
     "get-random-port": "0.0.1",
     "istanbul": "0.4.1",
-    "node-inspector": "0.12.4",
+    "node-inspector": "0.12.5",
     "tape": "4.2.2"
   }
 }
