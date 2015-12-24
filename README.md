@@ -42,6 +42,7 @@ Usage
   * <kbd>Shift</kbd> or click+drag to select, <kbd>Ctrl</kbd>/<kbd>Alt</kbd> to move faster
 * **Save**: <kbd>Ctrl+S</kbd>
 * **Undo**: <kbd>Ctrl+Z</kbd>, **redo**: <kbd>Ctrl+Y</kbd>
+* **List open tabs**: <kbd>Ctrl+L</kbd>
 * **Next/previous tab**: <kbd>Ctrl+Alt+PageUp/Down</kbd>
 * **Close tab**: <kbd>Ctrl+W</kbd>
 * **Find**: <kbd>Ctrl+F</kbd>
