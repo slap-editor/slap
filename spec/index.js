@@ -2,3 +2,4 @@
 /*global require*/
 
 require('./cli');
+require('./ui/FindForm')
