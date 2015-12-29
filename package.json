@@ -28,7 +28,7 @@
     "lodash": "3.10.1",
     "mkdirp": "0.5.1",
     "node-clap": "0.0.5",
-    "rc": "1.1.5",
+    "rc": "1.1.6",
     "slap-util": "1.0.6",
     "ttys": "0.0.3",
     "update-notifier": "0.6.0"
