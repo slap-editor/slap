@@ -23,9 +23,9 @@
   "dependencies": {
     "base-widget": "1.0.10",
     "blessed": "0.1.81",
-    "bluebird": "3.1.5",
+    "bluebird": "3.2.1",
     "editor-widget": "1.1.1",
-    "lodash": "4.0.1",
+    "lodash": "4.1.0",
     "mkdirp": "0.5.1",
     "node-clap": "0.0.5",
     "rc": "1.1.6",
