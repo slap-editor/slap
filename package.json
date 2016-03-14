@@ -31,7 +31,7 @@
     "rc": "1.1.6",
     "slap-util": "1.0.6",
     "ttys": "0.0.3",
-    "update-notifier": "0.6.0"
+    "update-notifier": "0.6.2"
   },
   "devDependencies": {
     "get-random-port": "0.0.1",
