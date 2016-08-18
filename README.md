@@ -9,7 +9,7 @@ from the terminal easier. It has:
 * first-class mouse support (even over an SSH connection)
 * a Sublime-like file sidebar
 * double-click to select word, highlight other occurrences
-* configurable Sublime-like [keybindings](#default-keybindings)[*](#some-keys-dont-work) (Ctrl+S save, Ctrl+Z undo, etc.)
+* configurable Sublime-like [keybindings](#default-keybindings)[*](#some-keys-dont-work) (<kbd>Ctrl+S</kbd> save, <kbd>Ctrl+Z</kbd> undo, etc.)
 * copying/pasting with OS clipboard support
 * infinite undo/redo
 * syntax highlighting for [100+ languages](https://github.com/isagalaev/highlight.js/tree/master/src/languages)
