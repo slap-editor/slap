@@ -37,6 +37,6 @@
     "get-random-port": "0.0.1",
     "istanbul": "0.4.4",
     "node-inspector": "0.12.8",
-    "tape": "4.5.1"
+    "tape": "4.6.3"
   }
 }
