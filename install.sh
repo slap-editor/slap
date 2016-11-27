@@ -23,7 +23,7 @@ if ! (is_executable npm && is_executable node && is_executable git); then
       exit 1
     fi
     wget -qO- https://deb.nodesource.com/setup_6.x | sudo bash - # Adds NodeSource repository to dpkg
-    sudo apt-get install -y nodejs git
+    sudo apt-get install -y nodejs git build-essential
   elif is_executable yum; then
     if ! is_executable curl; then
       errcho "curl not available. Please install curl first, then run this script again."
