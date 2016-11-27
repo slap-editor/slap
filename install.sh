@@ -22,14 +22,14 @@ if ! (is_executable npm && is_executable node && is_executable git); then
       errcho "wget not available. Please install wget first, then run this script again."
       exit 1
     fi
-    wget -qO- https://deb.nodesource.com/setup | sudo bash - # Adds NodeSource repository to dpkg
+    wget -qO- https://deb.nodesource.com/setup_6.x | sudo bash - # Adds NodeSource repository to dpkg
     sudo apt-get install -y nodejs git
   elif is_executable yum; then
     if ! is_executable curl; then
       errcho "curl not available. Please install curl first, then run this script again."
       exit 1
     fi
-    curl -sL https://rpm.nodesource.com/setup | bash - # Adds NodeSource repository to yum
+    curl -sL https://rpm.nodesource.com/setup_6.x | bash - # Adds NodeSource repository to yum
     sudo yum install -y nodejs git
   elif is_executable emerge; then
     emerge nodejs git
