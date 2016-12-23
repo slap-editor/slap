@@ -3,6 +3,8 @@
 slap :wave: [![Build Status](https://img.shields.io/travis/slap-editor/slap.svg)](https://travis-ci.org/slap-editor/slap) [![Donate](https://img.shields.io/gratipay/slap.svg)](https://gratipay.com/slap/)
 ====
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/slap-editor/slap?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 slap is a Sublime-like terminal-based text editor that strives to make editing
 from the terminal easier. It has:
 
