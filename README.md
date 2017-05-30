@@ -15,7 +15,7 @@ from the terminal easier. It has:
 * syntax highlighting for [100+ languages](https://github.com/isagalaev/highlight.js/tree/master/src/languages)
 * bracket matching
 * autoindentation
-* heavily customizeable via [plugins](#plugins)
+* heavily customizable via [plugins](#plugins)
 * ... many other features that will make you leave nano, vim, and emacs behind
 
 Installation
@@ -63,7 +63,7 @@ Pass configuration via command line:
 
 ### Plugins
 
-Slap is fully customizeable and supports plugins written in JS. You can place
+Slap is fully customizable and supports plugins written in JS. You can place
 single JS files, or NodeJS packages, into `~/.slap/plugins/`.
 
 To write your own plugin, a good starting point is
